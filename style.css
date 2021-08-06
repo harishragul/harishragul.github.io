@@ -1,0 +1,63 @@
+.body{
+	background: url('BG.jpg');
+	margin: 0px;
+	padding: 0px;
+}
+
+.header{
+
+}
+
+.Fname{
+	text-align: left;
+	font-size: 20px;
+	font-family: serif;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+
+	padding-top: 15px;
+	padding-left: 15px;
+
+	display: inline;
+}
+
+.Sname{
+	text-align: left;
+	font-size: 20px;
+	font-family: serif;
+	font-style: normal;
+	color: white;
+
+	padding-top: 15px;
+	padding-left: 15px;
+
+	display: inline;	
+}
+
+.header a{
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: serif;
+	font-style: normal;
+	text-decoration: none;
+
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-inline-start: 2ex;
+}
+
+.header a:hover{
+	color: white;
+}
+
+@media screen and (max-width: 600px){
+	.header a{
+		display: none;
+	}
+	.body{
+		background: url('BG-M.jpg');
+	}
+}
