@@ -60,11 +60,39 @@ html, body{
 	color: white;
 }
 
+.center{
+	color: white;
+	text-align: center;
+	padding-top: 15%;
+}
+
+
 @media screen and (max-width: 600px){
 	.header{
 		display: none;
 	}
 	.body{
 		background: url('BG-M.jpg');
+	}
+	.mob_nav{
+		text-align: center;
+		text-decoration: none;
+	}
+	.mob_nav a{
+		text-align: center;
+		color: white;
+		font-size: 20px;
+		font-family: serif;
+		font-style: normal;
+		text-decoration: none;
+	}
+	.mob_nav ul,li{
+		list-style-type: none;
+	}
+}
+
+@media screen and (min-width: 600px){
+	.mob_nav{
+		display: none;
 	}
 }
