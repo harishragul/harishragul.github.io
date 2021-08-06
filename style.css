@@ -1,3 +1,8 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
 .body{
 	background: url('BG.jpg');
 	margin: 0px;
@@ -5,7 +10,9 @@
 }
 
 .header{
-
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 15px;
 }
 
 .Fname{
