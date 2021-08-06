@@ -94,6 +94,7 @@ html, body{
 	.content{
 		text-align: left;
 		padding-left: 20px;
+		padding-top: 20%;
 	}
 	.content p{
 		color: black;
