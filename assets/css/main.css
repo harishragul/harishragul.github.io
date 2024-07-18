@@ -1541,7 +1541,7 @@ section {
 .features .tab-pane ul i {
   font-size: 24px;
   margin-right: 4px;
-  color: var(--color-primary);
+  color: rgba(255,255,255,0.4);
 }
 
 .features .tab-pane p:last-child {
@@ -3196,3 +3196,13 @@ a.btn-getstarted.scrollto {
 }
 .hero{padding: 60px 0 60px 0;}
 }
+
+section#features {
+  background: linear-gradient(rgba(var(--color-secondary-rgb), 0.9), rgba(var(--color-secondary-rgb), 0.9));
+  background-size: cover;
+  text-align: left;
+  padding: 40px;
+  margin: 60px 0px 60px;
+}
+.features .tab-pane h3{color:#fff;}
+.features .tab-pane ul li{color:#fff;}
